@@ -1,9 +1,17 @@
-# Use Pharmaverse Packages
+# Pharmaverse Section (Questions 2–4)
 
-Simple overview of use/purpose.
+This repository contains my solutions for **Questions 2–4 (Pharmaverse section)** of the **DSX Data Scientist Coding Assessment**.
 
-## Folder Structure
+The focus of this section is:
 
+- SDTM domain creation using {sdtm.oak}
+- ADaM dataset derivation using {admiral}
+- Regulatory-style TLG generation using {gtsummary} and {ggplot2}
+- CDISC-compliant derivations following SDTMIG and ADaM standards
+
+## Project Folder Structure
+
+``` bash
 ├── question_2_sdtm
 │   ├── 02_create_ds_domain.R
 │   └── ds.rda
@@ -18,3 +26,4 @@ Simple overview of use/purpose.
 │   ├── Question_4_2_AE_Visualizations.png
 │   └── Question_4_3_AE_Listing.html
 └── README.md
+```
